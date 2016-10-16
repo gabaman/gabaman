@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BLTabBarController.h"
+#import "STTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    _window.rootViewController = [[BLTabBarController alloc]init];
+    _window.rootViewController = [[STTabBarController alloc]init];
     
     _window.backgroundColor = [UIColor bl_colorWithR:253 G:129 B:164 alpha:1];
     
